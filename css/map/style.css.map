@@ -1,0 +1,1 @@
+{"version":3,"sources":["model/_global.scss"],"names":[],"mappings":"AAAA,KACC,oBAAqB,CACrB","file":"../style.css","sourcesContent":["body{\r\n\tbackground-color: red;\r\n}"]}
