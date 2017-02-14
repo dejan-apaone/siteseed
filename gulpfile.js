@@ -17,12 +17,10 @@ var uglify = require('gulp-uglify');
 
 
 var cssFiles = ([
-    // 'vendor/bootstrap/css/bootstrap.min.css',
-    // 'vendor/font-awesome-4.7.0/css/font-awesome.min.css',
-    // 'vendor/bootstrap-select-master/dist/css/bootstrap-select.min.css',
-    // 'vendor/animate.css',
-    // 'vendor/slick/slick.css',
-    // 'vendor/Magnific-Popup/magnific-popup.css',
+    'vendor/bootstrap/css/bootstrap.min.css',
+    'vendor/font-awesome/font-awesome.min.css',
+    'vendor/slick/slick.css',
+    'vendor/Magnific-Popup/magnific-popup.css',
 
 ]);
 var cssDest = 'css/';
@@ -51,15 +49,12 @@ gulp.task('sass_style', function () {
 });
 
 var jsFiles = ([
-    // 'vendor/bootstrap/js/bootstrap.min.js',
-    // 'vendor/bootstrap/bootstrap-select/bootstrap-select.min.js',
-    // 'vendor/bootstrap-select-master/dist/js/bootstrap-select.min.js',
-    // 'vendor/jquery.matchHeight-min.js',
-    // 'vendor/wow.js',
-    // 'vendor/slick/slick.min.js',
-    // 'vendor/Magnific-Popup/jquery.magnific-popup.min.js',
-    // 'vendor/validate/jquery.validate.min.js',
-    // 'vendor/validate/localization/messages_sr_lat.js'
+    'vendor/bootstrap/js/bootstrap.min.js',
+    'vendor/slick/slick.min.js',
+    'vendor/jquery.matchHeight-min.js',
+    'vendor/Magnific-Popup/jquery.magnific-popup.min.js',
+    'vendor/jquery-validation/jquery.validate.min.js',
+    'vendor/jquery-validation/messages_sr_lat.min.js',
 
 
 ]);

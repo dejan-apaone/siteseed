@@ -1,4 +1,13 @@
 @import  'model/variables';
+@import  'vendors/breakpoint';
+@import  'vendors/magnific-popup';
+@import  'vendors/slick-theme';
 @import  'model/global';
+
+@import  'layout/header';
+@import  'layout/navbar';
+@import  'layout/footer';
+@import  'layout/page';
+@import  'layout/wysiwyg-content';
 
 @import  'elements/buttons';
