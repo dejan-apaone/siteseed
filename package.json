@@ -1,7 +1,7 @@
 {
   "name": "soapatin",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. `npm install --save-dev gulp`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,14 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.4.0",
     "gulp-uglify": "^2.0.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dejan-apaone/siteseed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dejan-apaone/siteseed/issues"
+  },
+  "homepage": "https://github.com/dejan-apaone/siteseed#readme"
 }

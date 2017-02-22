@@ -1,5 +1,8 @@
 # siteseed
 
+###Init npm
+`npm init`
+
 ###Inatall gulp & other plugins
 1. `npm install --save-dev gulp`
 
@@ -7,4 +10,6 @@
 gulp-concat gulp-rename gulp-uglify
 `
 
-run with `gulp`
+###Run
+
+ `gulp`
