@@ -21,6 +21,26 @@ $text_c:#333;
 		clear: both;
 	}
 }
+.clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+/*
+--------------------------------------------------------------------
+We can then extend the .clearfix class wherever necessary.
+--------------------------------------------------------------------
+.wrap {
+	...
+	@extend .clearfix;
+}
+.main-header {
+	...
+	@extend .clearfix;
+}*/
 /***
 ====================================================================
 	Spacer
