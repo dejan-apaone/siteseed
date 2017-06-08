@@ -1,7 +1,8 @@
 # siteseed
 
 
-delete package.json
+**delete file:  `package.json`**
+
 ###Init npm
 `npm init`
 

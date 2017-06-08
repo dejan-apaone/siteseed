@@ -3,10 +3,9 @@ html {
 	font-size: 62.5%;
 }
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: $font_primary;
 	color: $text_c;
-	font-size: 14px;
-	font-size: 1.4rem;
+	@include font-size(16);
 	font-weight: 400;
 	img{
 		max-width: 100%;

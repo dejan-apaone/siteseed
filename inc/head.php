@@ -28,7 +28,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
   <meta name="dc.title" content="">
   <meta name="dc.type" content="">
   <link rel="icon" type="image/png" href="<?php echo $URL?>favicon.png" />
-
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&amp;subset=latin-ext" rel="stylesheet">
   <link href="<?php echo $URL?>css/vendor.css" rel="stylesheet">
   <link href="<?php echo $URL?>css/style.css" rel="stylesheet">
 </head>

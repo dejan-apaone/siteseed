@@ -1,33 +1,44 @@
 /***
 ====================================================================
+	Fonts
+====================================================================
+ ***/
+ $font_primary: font-family: 'Open Sans', sans-serif;
+/***
+====================================================================
 	Colors
 ====================================================================
  ***/
 
-$blue_c: #34495e;
-$red_c: #fc4f4f;
-$text_c:#333;
+ $blue_c: #34495e;
+ $red_c: #fc4f4f;
+ $text_c:#333;
 
-
+/***
+====================================================================
+	transition
+====================================================================
+ ***/
+ $blog_transition: all .3s ease-out;
 /***
 ====================================================================
 	clearfix
 ====================================================================
  ***/
-%clearfix {
-	&:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-}
-.clearfix {
-	&:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-}
+ %clearfix {
+ 	&:after {
+ 		content: "";
+ 		display: table;
+ 		clear: both;
+ 	}
+ }
+ .clearfix {
+ 	&:after {
+ 		content: "";
+ 		display: table;
+ 		clear: both;
+ 	}
+ }
 
 /*
 --------------------------------------------------------------------
@@ -46,25 +57,46 @@ We can then extend the .clearfix class wherever necessary.
 	Spacer
 ====================================================================
  ***/
-@for $i from 1 through 10 {
-	.spacer#{$i}0 {
-		height: #{$i}0px;
-	}
-}
+ @for $i from 1 through 10 {
+ 	.spacer#{$i}0 {
+ 		height: #{$i}0px;
+ 	}
+ }
 /***
 ====================================================================
 	media queries
 ====================================================================
  ***/
-$min400: 400px;
-$max400: max-width 399px;
-$min480: 480px;
-$max480: max-width 479px;
-$min768: 768px;
-$max768: max-width 767px;
-$min992: 992px;
-$max992: max-width 991px;
-$min1200: 1200px;
-$max1200: max-width 1199px;
-$min1600: 1600px;
-$max1600: max-width 1599px;
+ $min400: 400px;
+ $max400: max-width 399px;
+ $min480: 480px;
+ $max480: max-width 479px;
+ $min768: 768px;
+ $max768: max-width 767px;
+ $min992: 992px;
+ $max992: max-width 991px;
+ $min1200: 1200px;
+ $max1200: max-width 1199px;
+ $min1600: 1600px;
+ $max1600: max-width 1599px;
+/*
+media query example
+
+@include breakpoint($min768) {
+		position: fixed;
+	}
+*/
+
+/***
+====================================================================
+	Mixins for Rem Font Sizing
+====================================================================
+ ***/
+
+ @mixin font-size($sizeValue: 16) {
+ 	font-size: $sizeValue  + px;
+ 	font-size: ($sizeValue / 10) + rem;
+ }
+/*
+@include font-size(16); -- 16px 1.6rem
+*/
